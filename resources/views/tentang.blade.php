@@ -27,13 +27,13 @@
 
             <!-- Route for Desktop -->
             <nav class="hidden md:flex gap-5 text-sm ml-10">
-                <a href="#home" class="hover:text-gray-200 transition-colors duration-300">Home</a>
-                <a href="#tentang-kami" class="hover:text-gray-200 transition-colors duration-300">Tentang Kami</a>
-                <a href="#layanan-kami" class="hover:text-gray-200 transition-colors duration-300">Layanan Kami</a>
-                <a href="#artikel" class="hover:text-gray-200 transition-colors duration-300">Artikel</a>
+                <a href="/" class="hover:text-gray-200 transition-colors duration-300">Home</a>
+                <a href="/tentangkami" class="hover:text-gray-200 transition-colors duration-300">Tentang Kami</a>
+                <a href="/layanankami" class="hover:text-gray-200 transition-colors duration-300">Layanan Kami</a>
+                <a href="/artikel" class="hover:text-gray-200 transition-colors duration-300">Artikel</a>
                 <a href="#hubungi-kami" class="hover:text-gray-200 transition-colors duration-300">Hubungi Kami</a>
             </nav>
-
+    
             <!-- Button Daftar for Desktop -->
             <button type="button" class="hidden md:block ml-auto px-4 sm:px-6 py-2 bg-[#1C5194] text-white rounded-full hover:bg-blue-700 transition-all duration-300">
                 Daftar Online
@@ -42,10 +42,10 @@
 
         <!-- Mobile Menu -->
         <nav id="mobile-menu" class="hidden md:hidden bg-[#46074E] text-white w-full px-5 py-5 absolute top-[80px] left-0 z-40 shadow-md">
-            <a href="#home" class="block py-2 hover:text-gray-200 transition-colors duration-300">Home</a>
-            <a href="#tentang-kami" class="block py-2 hover:text-gray-200 transition-colors duration-300">Tentang Kami</a>
-            <a href="#layanan-kami" class="block py-2 hover:text-gray-200 transition-colors duration-300">Layanan Kami</a>
-            <a href="#artikel" class="block py-2 hover:text-gray-200 transition-colors duration-300">Artikel</a>
+            <a href="/" class="block py-2 hover:text-gray-200 transition-colors duration-300">Home</a>
+            <a href="/tentangkami" class="block py-2 hover:text-gray-200 transition-colors duration-300">Tentang Kami</a>
+            <a href="/layanankami" class="block py-2 hover:text-gray-200 transition-colors duration-300">Layanan Kami</a>
+            <a href="/artikel" class="block py-2 hover:text-gray-200 transition-colors duration-300">Artikel</a>
             <a href="#hubungi-kami" class="block py-2 hover:text-gray-200 transition-colors duration-300">Hubungi Kami</a>
             <button type="button" class="w-full mt-4 px-6 py-2 bg-[#1C5194] text-white rounded-full hover:bg-blue-700 transition-all duration-300">
                 Daftar Online
