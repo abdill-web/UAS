@@ -17,3 +17,7 @@ Route::get('/layanankami', function () {
 Route::get('/artikel', function () {
     return view('artikel');
 });
+
+Route::get('/hubungi-kami', function () {
+    return view('hubungi-kami');
+});

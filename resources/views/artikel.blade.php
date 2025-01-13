@@ -66,7 +66,7 @@
                 <a href="{{ url('/tentangkami') }}" class="hover:text-gray-200 transition-colors duration-300">Tentang Kami</a>
                 <a href="{{ url('/layanankami') }}" class="hover:text-gray-200 transition-colors duration-300">Layanan Kami</a>
                 <a href="{{ url('/artikel') }}" class="hover:text-gray-200 transition-colors duration-300">Artikel</a>
-                <a href="#hubungi-kami" class="hover:text-gray-200 transition-colors duration-300">Hubungi Kami</a>
+                <a href="{{ url('/hubungi-kami') }}" class="hover:text-gray-200 transition-colors duration-300">Hubungi Kami</a>
             </nav>
             <button type="button" class="ml-auto px-6 py-2 bg-[#1E3A8A] text-white rounded-full hover:bg-blue-700">Daftar Online</button>
             
@@ -81,10 +81,10 @@
 
         <nav id="mobile-menu" class="hidden md:hidden">
             <div class="flex flex-col bg-gradient-to-r from-[#46074E] to-[#197BD0] text-white text-sm">
-                <a href="#home" class="py-2 px-5 hover:bg-blue-700 transition-colors duration-300">Home</a>
-                <a href="#tentang-kami" class="py-2 px-5 hover:bg-blue-700 transition-colors duration-300">Tentang Kami</a>
-                <a href="#layanan-kami" class="py-2 px-5 hover:bg-blue-700 transition-colors duration-300">Layanan Kami</a>
-                <a href="#artikel" class="py-2 px-5 hover:bg-blue-700 transition-colors duration-300">Artikel</a>
+                <a href="/" class="py-2 px-5 hover:bg-blue-700 transition-colors duration-300">Home</a>
+                <a href="/tentangkami" class="py-2 px-5 hover:bg-blue-700 transition-colors duration-300">Tentang Kami</a>
+                <a href="/layanankami" class="py-2 px-5 hover:bg-blue-700 transition-colors duration-300">Layanan Kami</a>
+                <a href="/artikel" class="py-2 px-5 hover:bg-blue-700 transition-colors duration-300">Artikel</a>
                 <a href="#hubungi-kami" class="py-2 px-5 hover:bg-blue-700 transition-colors duration-300">Hubungi Kami</a>
             </div>
         </nav>

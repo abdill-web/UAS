@@ -28,7 +28,7 @@
                 <a href="/tentangkami" class="hover:text-gray-200 transition-colors duration-300">Tentang Kami</a>
                 <a href="/layanankami" class="hover:text-gray-200 transition-colors duration-300">Layanan Kami</a>
                 <a href="/artikel" class="hover:text-gray-200 transition-colors duration-300">Artikel</a>
-                <a href="#hubungi-kami" class="hover:text-gray-200 transition-colors duration-300">Hubungi Kami</a>
+                <a href="/hubungi-kami" class="hover:text-gray-200 transition-colors duration-300">Hubungi Kami</a>
             </nav>
 
             <button type="button" class="hidden md:block ml-auto px-4 sm:px-6 py-2 bg-[#1C5194] text-white rounded-full hover:bg-blue-700 transition-all duration-300">
@@ -41,7 +41,7 @@
             <a href="/tentangkami" class="block py-2 hover:text-gray-200 transition-colors duration-300">Tentang Kami</a>
             <a href="/layanankami" class="block py-2 hover:text-gray-200 transition-colors duration-300">Layanan Kami</a>
             <a href="/artikel" class="block py-2 hover:text-gray-200 transition-colors duration-300">Artikel</a>
-            <a href="#hubungi-kami" class="block py-2 hover:text-gray-200 transition-colors duration-300">Hubungi Kami</a>
+            <a href="/hubungi-kami" class="block py-2 hover:text-gray-200 transition-colors duration-300">Hubungi Kami</a>
             <button type="button" class="w-full mt-4 px-6 py-2 bg-[#1C5194] text-white rounded-full hover:bg-blue-700 transition-all duration-300">
                 Daftar Online
             </button>
