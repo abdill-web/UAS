@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HubungiKamiController;
 
 Route::get('/', function () {
     return view('home');
@@ -20,4 +21,6 @@ Route::get('/artikel', function () {
 
 Route::get('/hubungi-kami', function () {
     return view('hubungi-kami');
-});
+})->name('hubungi-kami.form');
+
+Route::post('/hubungi-kami', [HubungiKamiController::class, 'store'])->name('hubungi-kami.store');
